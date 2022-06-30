@@ -1,0 +1,25 @@
+;;;; Emacs Bookmark Format Version 1 ;;;; -*- coding: utf-8-emacs -*- 
+;;; This format is meant to be slightly human-readable;
+;;; nevertheless, you probably don't want to edit it.
+;;; -*- End Of Bookmark File Format Version Stamp -*-
+(("org-capture-last-stored-marker"
+ (filename . "/media/datos/javier/Nextcloud/Notes/org/Notas Medicas.org")
+ (front-context-string . "*** Espondilitis")
+ (rear-context-string . "osterior.\n\n*** \n")
+ (position . 220731))
+("org-refile-last-stored"
+ (filename . "/media/datos/javier/Nextcloud/Notes/org/Notas Medicas.org")
+ (front-context-string . "*** Espondilitis")
+ (rear-context-string . "osterior.\n\n*** \n")
+ (position . 220731))
+("Pacientes Cons"
+ (filename . "/media/datos/javier/Onedrive/Pacientes Cons/")
+ (front-context-string . "  total used in ")
+ (rear-context-string . "Pacientes Cons:\n")
+ (position . 48))
+("org-capture-last-stored"
+ (filename . "/media/datos/javier/Nextcloud/Notes/org/Notas Medicas.org")
+ (front-context-string . "* Espondilitis a")
+ (rear-context-string . "usp=sharing\n\n8\n\n")
+ (position . 311429))
+)

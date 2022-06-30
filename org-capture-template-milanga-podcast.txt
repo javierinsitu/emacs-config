@@ -1,0 +1,21 @@
+
+:PROPERTIES:
+:EXPORT_DATE: %<%Y-%m-%d>
+:EXPORT_FILE_NAME: 002 - filename
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description "This is dscription." :podcast_file "000-filename.mp3" :aliases '("/01") :podcast_duration "00:00" :episode_image "/img/episode/doctor.jpg" :episode_banner '("") :guests '("") :episode "00" :images '("img/episode/doctor.jpg") :hosts '("javierinsitu") :explicit "no" :series '("") :upcoming true :comments true
+:CUSTOM_ID: %<%Y%m%d%H%M%S> - 
+:END: 
+
+Imagen principal de
+
+
+------
+
+
+All posts are licensed under a [[https://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license]].
+
+#+ATTR_HTML: :align middle
+[[file:/88x31.png]]
+
+
+-------

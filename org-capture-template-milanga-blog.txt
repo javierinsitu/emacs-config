@@ -1,0 +1,23 @@
+
+:PROPERTIES:
+:EXPORT_DATE: %<%Y-%m-%d>
+:EXPORT_HUGO_SECTION: blog
+:EXPORT_FILE_NAME: 002 - filename
+:EXPORT_HUGO_CUSTOM_FRONT_MATTER: :description "This is dscription." :blog_image "/img/episode/notas2.jpg" :images '("img/episode/notas2.jpg") :series '("Emacs") :comments true :aliases '("/02")
+:CUSTOM_ID: %<%Y%m%d%H%M%S> - 
+:END: 
+
+
+Imagen principal de
+
+
+------
+
+
+All posts are licensed under a [[https://creativecommons.org/licenses/by-nc-sa/4.0/][Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International license]].
+
+#+ATTR_HTML: :align middle
+[[file:/88x31.png]]
+
+
+-------
