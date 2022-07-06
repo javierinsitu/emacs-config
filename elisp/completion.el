@@ -7,7 +7,8 @@
   (setq ivy-use-virtual-buffers t)
   (setq ivy-height 20)
   (setq ivy-count-format "%d/%d ")
-  (provide 'init-ivy))
+  (provide 'init-ivy)
+  :ensure t)
 
 ;; === Hacer más usable ivy ===
 ;; FLX ordena los resultados de M-x de acorde al último usado.

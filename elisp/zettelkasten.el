@@ -8,7 +8,7 @@
 ;; === Deft ===
 (use-package deft 
   :init
-  (setq deft-directory "/media/datos/javier/Nextcloud/Notes//Notes/zettelkasten")
+  (setq deft-directory "/media/datos/javier/Gdrive/Notes/zettelkasten/")
   (setq deft-extensions '("md" "org"))
   (setq deft-use-filename-as-title t)
   (setq deft-use-filter-string-for-filename t)

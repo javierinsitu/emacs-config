@@ -1,6 +1,7 @@
 ;; Configuracion de easy-hugo
 (use-package easy-hugo
     :ensure t
+    :init
     :config
     (setq easy-hugo-basedir "/media/datos/javier/Nextcloud/Blog/milanga-blog/")
     (setq easy-hugo-url "https://milangaelectronica.com.ar")

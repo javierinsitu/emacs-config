@@ -1,3 +1,7 @@
+;; Evita que los heading se expandan al inicio
+(setq org-startup-folded 't)
+
+
 ;; === org-mode agenda options ===
 
 (custom-set-variables
@@ -92,13 +96,15 @@
             
 ;; === Nice bullet points. Retires org-bullets ===
 ;; Prettify UI
-(use-package org-superstar :after org :hook (org-mode . org-superstar-mode))
+(use-package org-superstar 
+  :ensure t
+  :after org 
+  :hook (org-mode . org-superstar-mode))
 
 ;; === ORG-Super-Agenda ===
 (use-package org-super-agenda
   :ensure t
-  :config (org-super-agenda-mode)
-)
+  :config (org-super-agenda-mode))
 
 (setq org-agenda-custom-commands
   '(("c" "Super Agenda" agenda
@@ -162,9 +168,7 @@
         ["Enero" "Febrero" "Marzo" "Abril" "Mayo" "Junio" "Julio" "Agosto" "Septiembre" "Octubre" "Noviembre" "Diciembre"])
     (setq calendar-day-name-array
         ["Domingo" "Lunes" "Martes" "Miércoles" "Jueves" "Viernes" "Sábado"])
-    :bind ("C-c f" . cfw:open-org-calendar))
+    :bind ("C-c f" . cfw:))
 
-(use-package calfw-org
-    :ensure t)
 
 (provide 'orgmode)

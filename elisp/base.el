@@ -24,7 +24,7 @@
 (when (not package-archive-contents)
   (package-refresh-contents))
   
-;; === use-packacke ===             
+;; === Use-packacke ===             
 (unless (package-installed-p 'use-package)
   (package-install 'use-package))
 (require 'use-package)
@@ -40,6 +40,7 @@
 ;; === Show matching parentheses ===
 (show-paren-mode 1)
 
+;; === Coding System ===
 (set-file-name-coding-system 'utf-8)
 (set-clipboard-coding-system 'utf-8)
 (set-buffer-file-coding-system 'utf-8) 

@@ -33,8 +33,9 @@
   
 ;; == Iconos ===
 ;; Primero: M-x all-the-icons-install-fonts
-(use-package all-the-icons)
-
+(use-package all-the-icons
+       :if (display-graphic-p)
+       :ensure t)
 
 ;; === Pretty-mode ===
 ;; Cambiar ciertos caracteres por unos visualmente atractivos
@@ -42,7 +43,7 @@
 	   :ensure t
 	   :config (global-pretty-mode t))
 
-(use-package smart-mode-line-powerline-theme :ensure t)	   
+(use-package smart-mode-line-powerline-theme :ensure t)
 (use-package smart-mode-line
   :ensure t
   :init (add-hook 'after-init-hook 'sml/setup)
@@ -50,6 +51,5 @@
 
   (sml/apply-theme 'powerline))
 
-
-
+                        
 (provide 'theme)
